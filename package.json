@@ -1,0 +1,25 @@
+{
+  "name": "nextjs-app",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@types/react": "17.0.2",
+    "mongodb": "^4.5.0",
+    "next": "11.1.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.13.0",
+    "eslint-config-react-app": "7.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  }
+}
